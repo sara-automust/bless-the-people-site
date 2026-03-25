@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground py-10 mt-auto">
@@ -9,6 +11,10 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row justify-center gap-4 text-sm text-primary-foreground/80">
           <span>📍 בן נריה ברוך 4, בני ברק</span>
           <span>📞 054-8887080</span>
+        </div>
+        <div className="flex justify-center gap-4 text-sm pt-2">
+          <Link to="/privacy" className="text-primary-foreground/70 hover:text-primary-foreground underline transition-colors">מדיניות פרטיות</Link>
+          <Link to="/data-deletion" className="text-primary-foreground/70 hover:text-primary-foreground underline transition-colors">מחיקת נתונים</Link>
         </div>
         <p className="text-xs text-primary-foreground/50 pt-4">
           © {new Date().getFullYear()} לעובדי השם בארץ הקודש. כל הזכויות שמורות.
