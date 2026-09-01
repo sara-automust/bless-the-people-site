@@ -17,7 +17,6 @@ const Footer = () => {
           <Link to="/privacy" className="text-primary-foreground/70 hover:text-primary-foreground underline transition-colors">מדיניות פרטיות</Link>
           <Link to="/data-deletion" className="text-primary-foreground/70 hover:text-primary-foreground underline transition-colors">מחיקת נתונים</Link>
         </div>
-        <p className="text-sm text-primary-foreground/80 pt-2">ע"ר 580726784</p>
         <p className="text-xs text-primary-foreground/50 pt-2">
           © {new Date().getFullYear()} לעובדי השם בארץ הקודש. כל הזכויות שמורות.
         </p>
