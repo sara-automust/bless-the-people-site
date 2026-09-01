@@ -11,6 +11,7 @@ const Footer = () => {
         <div className="flex flex-col sm:flex-row justify-center gap-4 text-sm text-primary-foreground/80">
           <span>📍 בן נריה ברוך 4, בני ברק</span>
           <span>📞 054-8887080</span>
+          <span>ע"ר 580726784</span>
         </div>
         <div className="flex justify-center gap-4 text-sm pt-2">
           <Link to="/privacy" className="text-primary-foreground/70 hover:text-primary-foreground underline transition-colors">מדיניות פרטיות</Link>
